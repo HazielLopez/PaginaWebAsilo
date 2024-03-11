@@ -124,36 +124,67 @@
 
 /*Donations*/
 
-.donations-section{
+.section-donations {
   background-image: url(/Recursos/MujerConSombrilla.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 4.8rem 0 9.6rem 0;
+}
+
+.donations{
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 9.6rem;
+  align-items: center;
+}
+
+.donations-description{
+  font-size: 2rem;
+  line-height: 1.6;
+  margin-bottom: 4.8rem;
+  color: #f1f1ff;
+}
+
+.heading-donations{
+  font-size:5rem;
+  color: #f1f1ff;
+  margin-bottom: 5%;
+}
+
+.donations-img {
+  width: 100%;
+}
+
+/*TCU*/
+
+.section-TCU{
+  background-image: url(/Recursos/Estudiante.jpeg);
+  background-repeat: no-repeat;
   background-size: contain;
   padding: 4.8rem 0 9.6rem 0;
 }
 
-.heading-tertiary {
-  font-weight: 700;
-  color: #ffffff;
-  letter-spacing: -0.5px;
-}
-
-.grid--2-cols {
-  grid-template-columns: repeat(2, 1fr);
-}
-
-.grid--center-v {
+.TCU{
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 9.6rem;
   align-items: center;
 }
 
-.donations-description {
-  font-size: 1.8rem;
-  line-height: 1.8;
-  color: #fff;
+.TCU-description{
+  font-size: 2rem;
+  line-height: 1.6;
+  margin-bottom: 4.8rem;
 }
 
-/*TCU*/
-.tcu-section{
-  background-image: url(/Recursos/Estudiante.jpeg);
-  background-size: 200rem;
-  padding: 4.8rem 0 9.6rem 0;
+.heading-TCU{
+  font-size:5rem;
+  color:#333;
+  margin-bottom: 5%;
 }
-
