@@ -92,3 +92,12 @@ body {
   margin-bottom: 1.6rem;
   letter-spacing: 0.75px;
 }
+
+.section-heading {
+  align-items: center;
+  text-align: center;
+  color: #228be6;
+  margin-bottom: 8rem;
+  font-weight: 700;
+  font-size: 2.4rem;
+}

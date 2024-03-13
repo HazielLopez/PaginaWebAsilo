@@ -55,6 +55,7 @@
 .section-hero {
   background-color: #d3e8fa;
   padding: 4.8rem 0 9.6rem 0;
+  /* height: 90vh; */
 }
 
 .hero {
@@ -79,4 +80,55 @@
 
 .btn {
   color: #228be6;
+}
+
+/****************************/
+/*NUESTRO COMPROMISO*/
+/****************************/
+
+.section-commitment {
+  padding: 9.6rem 0;
+}
+
+.feature-description {
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
+
+.feature-img-box {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.feature-img {
+  width: 60%;
+  border-radius: 5%;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+}
+/****************************/
+/*NUESTROs COLABORADORES*/
+/****************************/
+.section-collaborators {
+  padding: 4.8rem 0 3.2rem 0;
+}
+
+.heading-collaborators {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.75px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 2.4rem;
+  color: #888;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-around;
+}
+
+.logos img {
+  height: 5.2rem;
 }
