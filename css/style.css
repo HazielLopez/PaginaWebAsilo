@@ -177,11 +177,12 @@
   position: relative;
 }
 
-.donation-img-box {
+.donation-img-box img {
+  display: block;
+  width: 100%;
 }
 
 .donation-img {
-  width: 100%;
 }
 
 .donation-information {
