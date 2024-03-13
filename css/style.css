@@ -172,24 +172,25 @@
 /****************************/
 /*Donations*/
 /****************************/
+
 .section-donations {
-  background-image: url(/Recursos/MujerConSombrilla.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 4.8rem 0 9.6rem 0;
-  height: 100vh;
+  position: relative;
 }
 
-.donations {
-  max-width: 130rem;
-  margin: 0 auto;
-  padding: 0 3.2rem;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 9.6rem;
-  align-items: center;
+.donation-img-box {
 }
 
+.donation-img {
+  width: 100%;
+}
+
+.donation-information {
+  position: absolute;
+  top: 45%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  max-width: 60rem;
+}
 .donations-description {
   font-size: 2rem;
   line-height: 1.6;
@@ -203,9 +204,6 @@
   margin-bottom: 5%;
 }
 
-.donations-img {
-  width: 100%;
-}
 /****************************/
 /*SECTION TCU*/
 /****************************/
