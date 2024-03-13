@@ -5,8 +5,6 @@
   justify-content: space-between;
   align-items: center;
   background-color: #d3e8fa;
-
-  /* Because we want header to be sticky later */
   height: 9.6rem;
   padding: 0 4.8rem;
   position: relative;
@@ -50,8 +48,9 @@
 .main-nav-link.nav-cta:active {
   background-color: #228be6;
 }
-
+/****************************/
 /*Hero*/
+/****************************/
 .section-hero {
   background-color: #d3e8fa;
   padding: 4.8rem 0 9.6rem 0;
@@ -170,14 +169,15 @@
 .margin-right-sm {
   margin-right: 1.6rem !important;
 }
-
+/****************************/
 /*Donations*/
-
+/****************************/
 .section-donations {
   background-image: url(/Recursos/MujerConSombrilla.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 4.8rem 0 9.6rem 0;
+  height: 100vh;
 }
 
 .donations {
@@ -206,9 +206,9 @@
 .donations-img {
   width: 100%;
 }
-
-/*TCU*/
-
+/****************************/
+/*SECTION TCU*/
+/****************************/
 .section-TCU {
   background-image: url(/Recursos/Estudiante.jpeg);
   background-repeat: no-repeat;
