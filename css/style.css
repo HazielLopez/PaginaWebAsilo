@@ -11,7 +11,7 @@
 }
 
 .logo {
-  height: 10rem;
+  height: 2.2rem;
 }
 
 .main-nav-list {
@@ -117,11 +117,6 @@
   width: 60%;
   border-radius: 5%;
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
-  transition: transform 0.3s ease-in-out;
-}
-
-.feature-img:hover{
-  transform: scale(1.1);
 }
 /****************************/
 /*NUESTROs COLABORADORES*/
@@ -180,12 +175,22 @@
 
 .section-donations {
   position: relative;
+  height: 70rem;
+
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(10, 43, 69, 0.6),
+      rgba(167, 209, 245, 0.2)
+    ),
+    url("/Recursos/MujerConSombrilla.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 .donation-img-box img {
   display: block;
   width: 100%;
-  
+  height: 70rem;
 }
 
 .donation-img {
@@ -215,24 +220,29 @@
 /*SECTION TCU*/
 /****************************/
 .section-TCU {
-  /* padding: 1.2rem 0 6.8rem 0; */
-
   position: relative;
-  /* margin: 0 auto; */
+
+  background-image: linear-gradient(
+      to right bottom,
+      hsla(208, 80%, 52%, 0.2),
+      hsla(208, 80%, 90%, 0.1)
+    ),
+    url("/Recursos/Estudiante.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 70rem;
+}
+
+.TCU {
 }
 
 .TCU-img-box {
-  padding-left: 6.8rem;
-}
-
-.TCU-img {
-  width: 70%;
 }
 
 .TCU-information {
   position: absolute;
   top: 45%;
-  left: 65%;
+  left: 75%;
   transform: translate(-50%, -50%);
 }
 
