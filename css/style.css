@@ -52,9 +52,16 @@
 /*Hero*/
 /****************************/
 .section-hero {
-  background-color: #d3e8fa;
-  padding: 4.8rem 0 9.6rem 0;
-  /* height: 90vh; */
+  padding: 30rem 0 0rem 0;
+  height: 100vh;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(10, 43, 69, 0.6),
+      rgba(167, 209, 245, 0.2)
+    ),
+    url("/Recursos/MujerConSombrilla.jpg");
+  background-size: cover;
+  background-position: top;
 }
 
 .hero {
@@ -67,29 +74,29 @@
   align-items: center;
 }
 
+.heading-hero {
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: -0.5px;
+}
+
 .hero-description {
   font-size: 2rem;
   line-height: 1.6;
   margin-bottom: 4.8rem;
-}
-
-.hero-img {
-  width: 100%;
+  color: #fff;
 }
 
 .btn {
   display: inline-block;
-
   text-decoration: none;
   font-size: 2rem;
   font-weight: 600;
   padding: 1.6rem 3.2rem;
   border-radius: 9px;
-
   border: none;
   cursor: pointer;
   font-family: inherit;
-
   transition: all 0.3s;
 }
 
@@ -179,8 +186,6 @@
 /****************************/
 
 .section-donations {
-  position: relative;
-
   background-image: linear-gradient(
       to right bottom,
       rgba(10, 43, 69, 0.6),
@@ -191,19 +196,6 @@
   background-position: center;
 }
 
-.donation-img-box img {
-  display: block;
-  width: 100%;
-  height: 70rem;
-}
-
-.donation-information {
-  position: absolute;
-  top: 45%;
-  left: 25%;
-  transform: translate(-50%, -50%);
-  max-width: 60rem;
-}
 .donations-description {
   font-size: 2rem;
   line-height: 1.6;
