@@ -117,6 +117,11 @@
   width: 60%;
   border-radius: 5%;
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  transition: transform 0.3s ease-in-out;
+}
+
+.feature-img:hover{
+  transform: scale(1.1);
 }
 /****************************/
 /*NUESTROs COLABORADORES*/
@@ -175,7 +180,7 @@
 
 .section-donations {
   position: relative;
-  height: 70rem;
+height: 70rem;
 
   background-image: linear-gradient(
       to right bottom,
@@ -193,8 +198,6 @@
   height: 70rem;
 }
 
-.donation-img {
-}
 
 .donation-information {
   position: absolute;
@@ -220,8 +223,8 @@
 /*SECTION TCU*/
 /****************************/
 .section-TCU {
-  position: relative;
-
+    position: relative;
+  
   background-image: linear-gradient(
       to right bottom,
       hsla(208, 80%, 52%, 0.2),
@@ -231,12 +234,6 @@
   background-size: cover;
   background-position: center;
   height: 70rem;
-}
-
-.TCU {
-}
-
-.TCU-img-box {
 }
 
 .TCU-information {
@@ -256,4 +253,47 @@
   font-size: 2rem;
   line-height: 1.6;
   margin-bottom: 4.8rem;
+}
+
+/****************************/
+/*SECTION FOOTER*/
+/****************************/
+.footer-grid{
+  margin-top: 5rem;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2,1fr);
+}
+
+.footer-logo{
+  margin-top: 2rem;
+  grid-column: 1/2;
+  grid-row: 1/1;
+}
+
+.contact-list{
+  grid-column: 2/3;
+  grid-row: 1/1;
+  list-style-type: none;
+  
+}
+.phone-text{
+  text-align: center;
+  margin: 3rem;
+  font-size: 2rem;
+  line-height: 1.6;
+}
+
+.address-list{
+  list-style-type: none;
+  margin-top: 2rem;
+  grid-column: 3/4;
+  grid-row: 1/1;
+}
+
+.social-media{
+  grid-column: 3/4;
+  grid-row:2/2;
+}
+.media-logos{
+  margin-right: 3rem;
 }
