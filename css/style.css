@@ -248,41 +248,24 @@
 /****************************/
 /*SECTION FOOTER*/
 /****************************/
-.footer-grid {
-  margin-top: 5rem;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+.footer {
+  background-color: #d3e8fa;
+  padding: 4.8rem 0 4.8rem 0;
 }
 
-.footer-logo {
-  margin-top: 2rem;
-  grid-column: 1/2;
-  grid-row: 1/1;
+.logo-img-footer {
+  height: 20rem;
+}
+.phone-information {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+.phone {
+  display: flex;
+  gap: 1rem;
 }
 
-.contact-list {
-  grid-column: 2/3;
-  grid-row: 1/1;
-  list-style-type: none;
-}
-.phone-text {
-  text-align: center;
-  margin: 3rem;
-  font-size: 2rem;
-  line-height: 1.6;
-}
-
-.address-list {
-  list-style-type: none;
-  margin-top: 2rem;
-  grid-column: 3/4;
-  grid-row: 1/1;
-}
-
-.social-media {
-  grid-column: 3/4;
-  grid-row: 2/2;
-}
-.media-logos {
-  margin-right: 3rem;
+.phone-number {
+  font-size: 2.4rem;
 }
