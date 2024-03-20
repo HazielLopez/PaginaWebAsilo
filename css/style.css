@@ -256,16 +256,19 @@
 .logo-img-footer {
   height: 20rem;
 }
-.phone-information {
+.footer-section {
   display: flex;
   flex-direction: column;
   gap: 3.2rem;
 }
-.phone {
+
+.footer-section-horizontal {
+  display: flex;
+  gap: 3.2rem;
+}
+.footer-item {
   display: flex;
   gap: 1rem;
-}
-
-.phone-number {
-  font-size: 2.4rem;
+  align-items: center;
+  font-size: 2rem;
 }
