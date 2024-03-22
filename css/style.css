@@ -130,6 +130,11 @@
 .feature-img:hover {
   transform: scale(1.1);
 }
+
+.feature-heading {
+  display: flex;
+  gap: 1.2rem;
+}
 /****************************/
 /*NUESTROs COLABORADORES*/
 /****************************/
@@ -181,6 +186,7 @@
 .margin-right-sm {
   margin-right: 1.6rem !important;
 }
+
 /****************************/
 /*Donations*/
 /****************************/
