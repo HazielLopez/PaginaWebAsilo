@@ -271,6 +271,45 @@
 }
 
 /****************************/
+/*SECTION TCU Poder Judicial*/
+/****************************/
+.section-TCU_Judicial {
+  position: relative;
+
+  background-image: linear-gradient(
+      to left top,
+      hsla(208, 80%, 52%, 0.2),
+      hsla(208, 80%, 90%, 0.1)
+    ),
+    url("/Recursos/Justicia.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 70rem;
+}
+
+.TCU_Judicial-information {
+  position: absolute;
+  width:30%;
+  top: 45%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+ 
+}
+
+.heading-TCU_Judicial {
+  font-size: 5rem;
+  color: #333;
+  margin-bottom: 5%;
+}
+
+.TCU_Judicial-description {
+  
+  font-size: 2rem;
+  line-height: 1.6;
+  margin-bottom: 4.8rem;
+}
+
+/****************************/
 /*SECTION FOOTER*/
 /****************************/
 .footer {
