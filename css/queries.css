@@ -1,0 +1,50 @@
+/* rem and em do NOT depend on html font-size in media queries! Instead, 1rem = 1em = 16px */
+
+/**************************/
+/* BELOW 1350px (Smaller desktops) */
+/**************************/
+@media (max-width: 85em) {
+  .section-hero {
+    padding: 20rem 0 0rem 0;
+  }
+
+  .hero {
+    padding: 0 auto;
+  }
+}
+
+/**************************/
+/* BELOW 1250px (Smaller desktops) */
+/**************************/
+
+@media (max-width: 78em) {
+  html {
+    /* font-size: 10px; */
+    /* 10px / 16px = 0.625 = 62.5% */
+    /* Percentage of user's browser font-size setting */
+    font-size: 56.25%;
+  }
+}
+
+/**************************/
+/* BELOW 1000px (Smaller desktops) */
+/**************************/
+@media (max-width: 63em) {
+  .main-nav-list {
+    gap: 3.2rem;
+  }
+
+  .logo-img-footer {
+    height: 15rem;
+  }
+
+  .footer .grid {
+    column-gap: 3.2rem;
+  }
+}
+
+/**************************/
+/* BELOW 900px (Smaller desktops) */
+/**************************/
+@media (max-width: 56em) {
+}
