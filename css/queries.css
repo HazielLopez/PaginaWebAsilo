@@ -1,7 +1,7 @@
 /* rem and em do NOT depend on html font-size in media queries! Instead, 1rem = 1em = 16px */
 
 /**************************/
-/* BELOW 1350px (Smaller desktops) */
+/* BELOW 1350px 
 /**************************/
 @media (max-width: 85em) {
   .section-hero {
@@ -14,7 +14,7 @@
 }
 
 /**************************/
-/* BELOW 1250px (Smaller desktops) */
+/* BELOW 1250px 
 /**************************/
 
 @media (max-width: 78em) {
@@ -27,7 +27,7 @@
 }
 
 /**************************/
-/* BELOW 1000px (Smaller desktops) */
+/* BELOW 1000px  */
 /**************************/
 @media (max-width: 63em) {
   .main-nav-list {
@@ -44,7 +44,7 @@
 }
 
 /**************************/
-/* BELOW 900px (Smaller desktops) */
+/* BELOW 900px  */
 /**************************/
 @media (max-width: 56em) {
   html {
@@ -159,7 +159,7 @@
 }
 
 /**************************/
-/* BELOW 700px (Smaller desktops) */
+/* BELOW 700px  */
 /**************************/
 @media (max-width: 44em) {
   html {
@@ -256,5 +256,72 @@
   .TCU-description,
   .TCU_Judicial-description {
     font-size: 1.8rem;
+  }
+
+  /**************************/
+  /* BELOW 550px  */
+  /**************************/
+  @media (max-width: 34em) {
+    html {
+      /* font-size: 10px; */
+      /* 7.50px / 16px = 0.4687 = 46.87% */
+      /* Percentage of user's browser font-size setting */
+      font-size: 43.75%;
+    }
+
+    .TCU-information,
+    .TCU_Judicial-information {
+      width: 35%;
+    }
+
+    .TCU-information .heading-primary {
+      margin-bottom: 1.6rem;
+    }
+
+    .TCU_Judicial-information .heading-primary {
+      margin-bottom: 1.6rem;
+    }
+
+    .section-commitment .grid--2-cols {
+      grid-template-columns: repeat(1, 1fr);
+    }
+
+    .feature-img-box:nth-child(2) {
+      grid-row: 1;
+    }
+    .feature-img-box:nth-child(6) {
+      grid-row: 5;
+    }
+
+    .feature-heading {
+      justify-content: center;
+    }
+
+    .footer .grid {
+      display: flex;
+      flex-direction: column;
+      gap: 3.2rem;
+    }
+
+    .logo-footer .footer-email-address,
+    .footer-phones,
+    .footer-section-horizontal {
+      justify-self: center;
+      gap: 3.2rem;
+    }
+
+    .logo-footer {
+      order: 0;
+    }
+
+    .footer-email-address {
+      order: 1;
+    }
+    .footer-phones {
+      order: 2;
+    }
+    .footer-section-horizontal {
+      order: 3;
+    }
   }
 }
