@@ -49,7 +49,7 @@
 @media (max-width: 56em) {
   html {
     /* font-size: 10px; */
-    /* .50px / 16px = 0.625 = 56.25 */
+    /* 8.50px / 16px = 0.5625 = 56.25 */
     /* Percentage of user's browser font-size setting */
     font-size: 53.12%;
   }
@@ -59,10 +59,113 @@
   }
 
   .section-TCU_Judicial {
-    height: 70rem;
+    height: 75rem;
   }
 
   .section-TCU {
-    height: 55rem;
+    height: 75rem;
+  }
+
+  /* MOBILE NAVIGATION */
+  .btn-mobile-nav {
+    display: block;
+    z-index: 9999;
+  }
+
+  .main-nav {
+    background-color: rgba(211, 232, 250, 0.9);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(10px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    transform: translateX(100%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in;
+
+    /* Hide navigation */
+    /* Allows NO transitions at all */
+    /* display: none; */
+    /* 1) Hide it visually */
+    opacity: 0;
+
+    /* 2) Make it unaccessible to mouse and keyboard */
+    pointer-events: none;
+
+    /* 3) Hide it from screen readers */
+    visibility: hidden;
+  }
+
+  .nav-open .main-nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+
+  .nav-open .icon-mobile-nav[name="close-outline"] {
+    display: block;
+  }
+
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
+    display: none;
+  }
+
+  .main-nav-list {
+    flex-direction: column;
+    gap: 4.8rem;
+  }
+
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 3rem;
+  }
+
+  .footer .grid {
+    column-gap: 4.8rem;
+    row-gap: 1.6rem;
+  }
+
+  .footer .grid--4-cols {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .logo-footer {
+    grid-row: 1 / -4;
+    justify-self: center;
+  }
+
+  .footer-phones {
+    margin-top: 4rem;
+  }
+
+  .footer-email-address {
+    grid-row: -4 / -1;
+    justify-self: center;
+  }
+}
+
+/**************************/
+/* BELOW 700px (Smaller desktops) */
+/**************************/
+@media (max-width: 44em) {
+  html {
+    /* font-size: 10px; */
+    /* 8.50px / 16px = 0.625 = 56.25 */
+    /* Percentage of user's browser font-size setting */
+    font-size: 50%;
+  }
+
+  .section-TCU_Judicial {
+    height: 53rem;
+  }
+
+  .section-TCU {
+    height: 53rem;
   }
 }
