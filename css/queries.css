@@ -69,7 +69,7 @@
   /* MOBILE NAVIGATION */
   .btn-mobile-nav {
     display: block;
-    z-index: 9999;
+    z-index: 999999;
   }
 
   .main-nav {
@@ -99,6 +99,7 @@
 
     /* 3) Hide it from screen readers */
     visibility: hidden;
+    z-index: 999999;
   }
 
   .nav-open .main-nav {
@@ -322,6 +323,38 @@
     }
     .footer-section-horizontal {
       order: 3;
+    }
+
+    .btn {
+      font-size: 1.8rem;
+      padding: 1.6rem 3.2rem;
+      border-radius: 9px;
+      width: 28rem;
+    }
+
+    .section-hero {
+      height: 65rem;
+
+      padding: 15rem 0 0rem 0;
+    }
+    .section-TCU_Judicial {
+      height: 45rem;
+    }
+
+    .section-TCU {
+      height: 45rem;
+    }
+  }
+
+  /**************************/
+  /* BELOW 550px  */
+  /**************************/
+  @media (max-width: 21.88em) {
+    html {
+      /* font-size: 10px; */
+      /* 7px / 16px = 0.4687 = 46.87% */
+      /* Percentage of user's browser font-size setting */
+      font-size: 41%;
     }
   }
 }
