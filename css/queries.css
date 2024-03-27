@@ -126,6 +126,14 @@
     font-size: 3rem;
   }
 
+  .section-TCU {
+    height: 59rem;
+  }
+
+  .section-TCU_Judicial {
+    height: 65rem;
+  }
+
   .footer .grid {
     column-gap: 4.8rem;
     row-gap: 1.6rem;
@@ -166,12 +174,50 @@
   }
 
   .section-TCU {
-    height: 53rem;
+    height: 49rem;
   }
 
   .icon-social-media {
-    width: 3.2rem;
-    height: 3.2rem;
+    width: 4.4rem;
+    height: 4.4rem;
+  }
+
+  .footer .grid--4-cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .logo-footer {
+    grid-column: 1/2;
+    grid-row: -4 / -1;
+  }
+
+  .footer-email-address {
+    grid-column: 2 / 3;
+    grid-row: -4 / -3;
+    justify-self: left;
+  }
+
+  .footer-phones {
+    grid-column: 2 / 3;
+    grid-row: -3 / -2;
+    margin-top: 0rem;
+    justify-self: left;
+  }
+
+  .footer-section-horizontal {
+    grid-column: 2 / 3;
+    grid-row: -2 / -1;
+    justify-self: left;
+  }
+
+  .logo-img-footer {
+    height: 20rem;
+  }
+
+  .footer-email-address,
+  .footer-phones,
+  .footer-section-horizontal {
+    margin-bottom: 1.2rem;
   }
 
   .footer .grid {
@@ -193,5 +239,22 @@
 
   .TCU_Judicial-information {
     margin-top: 3.2rem;
+  }
+
+  .heading-primary {
+    font-size: 4.4rem;
+  }
+
+  .TCU-information .heading-primary {
+    font-size: 3rem;
+  }
+
+  .TCU_Judicial-information .heading-primary {
+    font-size: 3rem;
+  }
+
+  .TCU-description,
+  .TCU_Judicial-description {
+    font-size: 1.8rem;
   }
 }
