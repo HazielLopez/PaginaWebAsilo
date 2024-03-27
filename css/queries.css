@@ -20,7 +20,7 @@
 @media (max-width: 78em) {
   html {
     /* font-size: 10px; */
-    /* 10px / 16px = 0.625 = 62.5% */
+    /* 9px / 16px = 0.625 = 56.25 */
     /* Percentage of user's browser font-size setting */
     font-size: 56.25%;
   }
@@ -47,4 +47,22 @@
 /* BELOW 900px (Smaller desktops) */
 /**************************/
 @media (max-width: 56em) {
+  html {
+    /* font-size: 10px; */
+    /* .50px / 16px = 0.625 = 56.25 */
+    /* Percentage of user's browser font-size setting */
+    font-size: 53.12%;
+  }
+
+  .main-nav-list {
+    gap: 2.4rem;
+  }
+
+  .section-TCU_Judicial {
+    height: 70rem;
+  }
+
+  .section-TCU {
+    height: 55rem;
+  }
 }
