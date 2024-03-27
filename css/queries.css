@@ -270,6 +270,10 @@
       font-size: 43.75%;
     }
 
+    .hero .heading-primary {
+      font-size: 2.4rem;
+    }
+
     .TCU-information,
     .TCU_Judicial-information {
       width: 35%;
@@ -347,7 +351,7 @@
   }
 
   /**************************/
-  /* BELOW 550px  */
+  /* BELOW 350px  */
   /**************************/
   @media (max-width: 21.88em) {
     html {
@@ -355,6 +359,10 @@
       /* 7px / 16px = 0.4687 = 46.87% */
       /* Percentage of user's browser font-size setting */
       font-size: 41%;
+    }
+
+    .hero .heading-primary {
+      font-size: 2.4rem;
     }
   }
 }
