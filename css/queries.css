@@ -342,11 +342,11 @@
       padding: 15rem 0 0rem 0;
     }
     .section-TCU_Judicial {
-      height: 45rem;
+      max-height: 45rem;
     }
 
     .section-TCU {
-      height: 45rem;
+      max-height: 45rem;
     }
   }
 
