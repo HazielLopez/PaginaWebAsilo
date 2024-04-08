@@ -26,7 +26,7 @@ obs.observe(sectionHeroEl);
 
 // Smooth scrolling animation
 
-const allLinks = document.querySelectorAll("a:link");
+const allLinks = document.querySelectorAll("a.scroll-link");
 
 allLinks.forEach(function (link) {
   link.addEventListener("click", function (e) {
