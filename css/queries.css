@@ -270,8 +270,11 @@
       font-size: 43.75%;
     }
 
+    .hero {
+      gap: 2.4rem;
+    }
     .hero .heading-primary {
-      font-size: 2.4rem;
+      font-size: 3rem;
     }
 
     .TCU-information,
@@ -369,6 +372,10 @@
     .btn--outline::after {
       content: "Contactar";
       padding: 1.6rem 3.2rem;
+    }
+
+    .hero {
+      gap: 0rem;
     }
   }
 }
