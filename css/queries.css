@@ -330,10 +330,8 @@
     }
 
     .btn {
-      font-size: 1.8rem;
-      padding: 1.6rem 3.2rem;
-      border-radius: 9px;
-      width: 28rem;
+      font-size: 1.4rem;
+      padding: 0.4rem 1.2rem;
     }
 
     .section-hero {
@@ -351,9 +349,9 @@
   }
 
   /**************************/
-  /* BELOW 350px  */
+  /* BELOW 370px  */
   /**************************/
-  @media (max-width: 21.88em) {
+  @media (max-width: 24em) {
     html {
       /* font-size: 10px; */
       /* 7px / 16px = 0.4687 = 46.87% */
@@ -363,6 +361,14 @@
 
     .hero .heading-primary {
       font-size: 2.4rem;
+    }
+
+    .btn--outline span {
+      display: none;
+    }
+    .btn--outline::after {
+      content: "Contactar";
+      padding: 1.6rem 3.2rem;
     }
   }
 }
