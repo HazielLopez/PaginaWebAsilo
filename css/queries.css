@@ -279,7 +279,7 @@
 
     .TCU-information,
     .TCU_Judicial-information {
-      width: 35%;
+      width: 33%;
     }
 
     .TCU-information .heading-primary {
@@ -347,7 +347,23 @@
     }
 
     .section-TCU {
-      max-height: 45rem;
+      max-height: 40rem;
+    }
+
+    .section-TCU .heading-primary {
+      font-size: 2.4rem;
+    }
+
+    .section-TCU .TCU-description {
+      font-size: 1.6rem;
+    }
+
+    .section-TCU_Judicial .heading-primary {
+      font-size: 2.4rem;
+    }
+
+    .section-TCU .TCU_Judicial-description {
+      font-size: 1.6rem;
     }
   }
 
@@ -359,7 +375,7 @@
       /* font-size: 10px; */
       /* 7px / 16px = 0.4687 = 46.87% */
       /* Percentage of user's browser font-size setting */
-      font-size: 41%;
+      font-size: 33%;
     }
 
     .hero .heading-primary {
@@ -376,6 +392,15 @@
 
     .hero {
       gap: 0rem;
+    }
+    .section-TCU {
+      max-height: 32rem;
+    }
+    .TCU-information {
+      top: 48%;
+      left: 79%;
+      transform: translate(-50%, -50%);
+      width: 40%;
     }
   }
 }
