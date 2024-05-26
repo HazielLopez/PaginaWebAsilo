@@ -97,7 +97,7 @@
       rgba(10, 43, 69, 0.6),
       rgba(167, 209, 245, 0.2)
     ),
-    url("/Recursos/MujerConSombrilla.jpg");
+    url("../Recursos/MujerConSombrilla.jpg");
   background-size: cover;
   background-position: top;
 }
@@ -237,7 +237,7 @@
       rgba(10, 43, 69, 0.6),
       rgba(167, 209, 245, 0.2)
     ),
-    url("/Recursos/MujerConSombrilla.jpg");
+    url("../Recursos/MujerConSombrilla.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -266,7 +266,7 @@
       hsla(208, 80%, 52%, 0.2),
       hsla(208, 80%, 90%, 0.1)
     ),
-    url("/Recursos/Estudiante.jpg");
+    url("../Recursos/Estudiante.jpg");
   background-size: cover;
   background-position: center;
   height: 70rem;
@@ -302,7 +302,7 @@
       hsla(208, 80%, 52%, 0.2),
       hsla(208, 80%, 90%, 0.1)
     ),
-    url("/Recursos/Justicia.jpg");
+    url("../Recursos/Justicia.jpg");
   /* background-size: 100%; */
   background-size: cover;
   background-position: top;
