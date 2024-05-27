@@ -59,3 +59,35 @@ const headerEl = document.querySelector(".header");
 btnNavEl.addEventListener("click", function () {
   headerEl.classList.toggle("nav-open");
 });
+
+
+document.getElementById('cta-form').addEventListener('submit', function(event) {
+  event.preventDefault();
+  
+  const form = event.target;
+  const formData = new FormData(form);
+
+  fetch(form.action, {
+      method: form.method,
+      body: formData,
+      headers: {
+          'Accept': 'application/json'
+      }
+  }).then(response => {
+      if (response.ok) {
+          form.reset();
+          // Mostrar la ventana emergente de confirmación
+          alert("¡Gracias! El formulario ha sido enviado con éxito.");
+      } else {
+          response.json().then(data => {
+              if (data.errors) {
+                  alert(data.errors.map(error => error.message).join(", "));
+              } else {
+                  alert("Oops! Hubo un problema al enviar el formulario");
+              }
+          });
+      }
+  }).catch(error => {
+      alert("Oops! Hubo un problema al enviar el formulario");
+  });
+});

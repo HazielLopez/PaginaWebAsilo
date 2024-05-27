@@ -252,29 +252,79 @@
         </div>
       </section>
 
-      <!--TCU-->
-      <section class="section-TCU" id="TCU">
-        <div class="TCU-information">
-          <h1 class="heading-primary">Trabajo Comunal Estudiantil</h1>
-          <p class="TCU-description">
-            Estudiantes, les invitamos a participar en proyectos de trabajo
-            comunitario en nuestro centro del adulto mayor. Su tiempo y energía
-            pueden marcar la diferencia.
-          </p>
-        </div>
-      </section>
+    <section class="section-cta">
+      <div class="container">
+        <div class="cta">
+          <div class="cta-text-box">
+            <h2 class="heading-secondary">Trabajo Comunal</h2>
+            <p class="cta-text">
+              Invitamos a todos a participar en proyectos de trabajo comunitario en nuestro centro para adultos mayores. 
+              Tu contribución puede marcar una gran diferencia.
+            </p>
 
-      <!--TCU Poder Judicial-->
-      <section class="section-TCU_Judicial" id="TCU_Judicial">
-        <div class="TCU_Judicial-information">
-          <h1 class="heading-primary">Trabajo Comunal</h1>
-          <p class="TCU_Judicial-description">
-            Únase a nosotros en una experiencia gratificante de trabajo
-            comunitario judicial. Para más información contáctenos por WhatsApp
-            o correo electrónico.
-          </p>
+            <form id="cta-form" class="cta-form" action="https://formsubmit.co/ajax/b9c1ce15ae1115855a616c5e82b5abb7" method="POST">
+              <div>
+                <label for="full-name">Nombre completo</label>
+                <input
+                  id="full-name"
+                  type="text"
+                  placeholder="John Smith"
+                  name="name"
+                  required
+                />
+              </div>
+
+              <div>
+                <label for="email">Correo electrónico</label>
+                <input
+                  id="email"
+                  type="email"
+                  placeholder="me@example.com"
+                  name="email"
+                  required
+                />
+              </div>
+
+              <div>
+                <label for="phone">Telefono</label>
+                <input
+                  id="phone"
+                  type="phone"
+                  placeholder="88888888"
+                  name="phone"
+                  required
+                />
+              </div>
+
+              <div>
+                <label for="select-where">Tipo de Trabajo Comunitario:</label>
+                <select id="select-where"name="tipo_tc" required>
+                  <option value="">Seleccione el tipo de TC</option>
+                  <option value="tcu">Trabajo Comunal Universitario (TCU)</option>
+                  <option value="tcj">Trabajo Comunal Judicial (TCJ)</option>
+                  <option value="sse">Servicio Social Estudiantil (SSE)</option>
+                  <option value="vc">Voluntariado Comunitario (VC)</option>
+                  <option value="others">Otros</option>
+                </select>
+              </div>
+
+              <button type="submit" class="btn btn--form">Enviar</button>
+
+            </form>
+           
+          </div>
+          <div
+            class="cta-img-box"
+            role="img"
+            aria-label="Woman enjoying food"
+          ></div>
         </div>
-      </section>
+      </div>
+    </section>
+
+
+ 
+
     </main>
 
     <!--FOOTER-->

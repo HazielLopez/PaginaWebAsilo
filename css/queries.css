@@ -66,6 +66,18 @@
     height: 75rem;
   }
 
+  .cta {
+    /* 3/5 = 60% + 2/5 = 40% */
+    grid-template-columns: 3fr 2fr;
+  }
+
+  .cta-form {
+    grid-template-columns: 1fr;
+  }
+
+  .btn--form {
+    margin-top: 1.2rem;
+  }
   /* MOBILE NAVIGATION */
   .btn-mobile-nav {
     display: block;
@@ -375,6 +387,19 @@
     .TCU-description {
       margin-bottom: 3.2rem;
     }
+
+    .cta {
+      grid-template-columns: 1fr;
+    }
+  
+    .cta-text-box {
+      padding: 3.2rem;
+    }
+  
+    .cta-img-box {
+      height: 32rem;
+      grid-row: 1;
+    }
   }
 
   /**************************/
@@ -415,6 +440,19 @@
 
     .TCU-description {
       margin-bottom: 2.4rem;
+    }
+
+    .cta {
+      grid-template-columns: 1fr;
+    }
+  
+    .cta-text-box {
+      padding: 3.2rem;
+    }
+  
+    .cta-img-box {
+      height: 32rem;
+      grid-row: 1;
     }
   }
 }

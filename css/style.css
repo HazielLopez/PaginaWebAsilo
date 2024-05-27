@@ -258,7 +258,7 @@
 /****************************/
 /*SECTION TCU*/
 /****************************/
-.section-TCU {
+/*.section-TCU {
   position: relative;
 
   background-image: linear-gradient(
@@ -295,39 +295,120 @@
 /****************************/
 /*SECTION TCU Poder Judicial*/
 /****************************/
-.section-TCU_Judicial {
+/*.section-TCU-Form{
   position: relative;
+
   background-image: linear-gradient(
-      to left top,
+      to right bottom,
       hsla(208, 80%, 52%, 0.2),
       hsla(208, 80%, 90%, 0.1)
     ),
-    url("../Recursos/Justicia.jpg");
-  /* background-size: 100%; */
+    url("../Recursos/TC.jpg");
   background-size: cover;
-  background-position: top;
-  /* background-repeat: no-repeat */
-  height: 100rem;
+  background-position: center;
+  height: 70rem;
+}
+.form-content{
+  background: linear-gradient(
+    50deg,
+    hsla(208, 80%, 52%, 0.2),
+    hsla(208, 80%, 90%, 0.1)),
+  url("./Recursos/fondotc.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px;
+  width: 1000px;
+  border-radius: 25px;
 }
 
-.TCU_Judicial-information {
-  position: absolute;
-  width: 30%;
-  top: 50%;
-  left: 30%;
-  transform: translate(-50%, -50%);
-}
-
-.heading-TCU_Judicial {
+.form-content h2 {
   font-size: 5rem;
   color: #333;
-  margin-bottom: 5%;
+  margin-bottom: 3.2rem;
 }
 
-.TCU_Judicial-description {
-  font-size: 2rem;
-  line-height: 1.6;
-  margin-bottom: 4.8rem;
+
+/**************************/
+/* CTA SECTION */
+/**************************/
+
+.section-cta {
+  padding: 4.8rem 0 12.8rem;
+}
+
+.cta {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
+  border-radius: 11px;
+  background-image: linear-gradient(to right bottom, #d3e8fa, #d3e8fa);
+  overflow: hidden;
+}
+
+.cta-text-box {
+  padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+  color: #333;
+}
+
+.cta .heading-secondary {
+  color: inherit;
+  margin-bottom: 3.2rem;
+}
+
+.cta-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+}
+
+.cta-img-box {
+  position: relative;
+  overflow: hidden;
+  background-image: linear-gradient(
+      to right bottom,
+      hsla(208, 80%, 52%, 0.2),
+      hsla(208, 80%, 90%, 0.1)
+    ),
+    url("../Recursos/prueba2.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+.cta-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 3.2rem;
+  row-gap: 2.4rem;
+}
+
+.cta-form label {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+}
+
+.cta-form input,
+.cta-form select {
+  width: 100%;
+  padding: 1.2rem;
+  font-size: 1.8rem;
+  font-family: inherit;
+  color: inherit;
+  border: none;
+  background-color: #ffffff;
+  border-radius: 9px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.cta-form input::placeholder {
+  color: #aaa;
+}
+
+.cta *:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.5);
 }
 
 /****************************/
